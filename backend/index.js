@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 const path = require('path')
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://resume-radar.netlify.app', // replace with your deployed frontend URL
+  'https://resume-radar-indol.vercel.app', // replace with your deployed frontend URL
 ];
 
 require('./conn');
